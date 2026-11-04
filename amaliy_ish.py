@@ -1,10 +1,10 @@
 import math
 import matplotlib.pyplot as plt
 
-m = 2.0
-P = 520
-k = 10
-T0 = 20
+m = float(input("suv massasi, kg: "))
+P = float(input("isitgich quvvati, W: "))
+k = float(input("issiqlik yo'qotish koeffitsiyenti, W/°C: "))
+T0 = float(input("boshlang'ich (atrof-muhit) harorati, °C: "))
 
 c = 4190
 

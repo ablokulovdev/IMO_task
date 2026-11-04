@@ -2,10 +2,10 @@ import math
 import matplotlib.pyplot as plt
  
 # ===== 1. Variant ma'lumotlarini kiriting =====
-m  = 2.0     # suv massasi, kg
-P  = 450     # isitgich quvvati, W
-k  = 7       # issiqlik yo'qotish koeffitsiyenti, W/°C
-T0 = 24      # boshlang'ich (atrof-muhit) harorati, °C
+m  = 1.8     # suv massasi, kg
+P  = 750    # isitgich quvvati, W
+k  = 11     # issiqlik yo'qotish koeffitsiyenti, W/°C
+T0 = 16     # boshlang'ich (atrof-muhit) harorati, °C
 c  = 4190    # suvning solishtirma issiqlik sig'imi, J/(kg·°C)
  
 # ===== 2. Dinamik parametrlarni hisoblash =====
